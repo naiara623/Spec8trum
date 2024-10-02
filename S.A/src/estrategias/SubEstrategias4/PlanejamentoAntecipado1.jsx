@@ -34,9 +34,12 @@ function PlanejamentoAntecipado1() {
 <div class="content">
 <div class="main-content">
 
-<a href="Estratégia 1 Sons Altos.html">⬅     Protetores auriculares</a> 
+<a href="Estratégia 1 Sons Altos.html">⬅    Planejamento Antecipado</a> 
 
-<p>Para pessoas com TEA, tampões de ouvido e fones de ouvido com cancelamento de ruído podem ser extremamente úteis para reduzir a intensidade do som ambiente. Esses dispositivos ajudam a criar um ambiente mais controlado e menos estressante, bloqueando sons que podem ser perturbadores ou dolorosos. É importante escolher protetores auriculares confortáveis e adequados para uso prolongado, especialmente em ambientes barulhentos como escolas, locais de trabalho ou eventos sociais.</p>
+<p>Informar-se sobre o evento ou situação com antecedência* é essencial para reduzir a ansiedade e aumentar a sensação de controle. Aqui estão algumas estratégias detalhadas:
+ Mapas e Layouts: Obter mapas do local do evento pode ajudar a identificar áreas importantes como saídas de emergência, banheiros, áreas de alimentação e espaços tranquilos. Isso permite planejar rotas e evitar áreas potencialmente estressantes.
+ Listas de Verificação: Criar listas de verificação com itens essenciais a serem levados, como documentos, ingressos, itens de conforto e qualquer medicação necessária. Isso ajuda a garantir que nada importante seja esquecido.
+ Simulações Mentais: Visualizar mentalmente o evento, imaginando cada etapa desde a chegada até a saída. Isso pode incluir pensar em como lidar com possíveis imprevistos, como filas longas ou mudanças no cronograma.</p>
 </div>
 <div class="sidebar">
       

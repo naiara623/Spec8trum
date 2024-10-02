@@ -34,9 +34,12 @@ function CompanheiroDeApoio2() {
 <div class="content">
 <div class="main-content">
 
-<a href="Estratégia 1 Sons Altos.html">⬅     Protetores auriculares</a> 
+<a href="Estratégia 1 Sons Altos.html">⬅    Companheiro de Apoio</a> 
 
-<p>Para pessoas com TEA, tampões de ouvido e fones de ouvido com cancelamento de ruído podem ser extremamente úteis para reduzir a intensidade do som ambiente. Esses dispositivos ajudam a criar um ambiente mais controlado e menos estressante, bloqueando sons que podem ser perturbadores ou dolorosos. É importante escolher protetores auriculares confortáveis e adequados para uso prolongado, especialmente em ambientes barulhentos como escolas, locais de trabalho ou eventos sociais.</p>
+<p>Ter uma pessoa de confiança ao lado pode fazer uma grande diferença. Aqui estão algumas maneiras de maximizar esse suporte:
+ Sinais de Comunicação: Estabelecer sinais não verbais para comunicar quando a pessoa está se sentindo sobrecarregada ou precisa de uma pausa. Isso pode incluir gestos específicos ou palavras-código.
+ Divisão de Tarefas: Delegar responsabilidades, como quem cuidará dos ingressos, quem ficará de olho nos horários e quem será responsável por encontrar áreas de descanso.
+ Revisão de Planos: Antes do evento, revisar juntos o plano de ação, incluindo o que fazer em caso de emergências ou se a pessoa precisar sair mais cedo.</p>
 </div>
 <div class="sidebar">
       

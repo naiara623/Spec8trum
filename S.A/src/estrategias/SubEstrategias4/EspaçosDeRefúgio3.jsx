@@ -34,9 +34,12 @@ function EspaçosDeRefúgio3() {
 <div class="content">
 <div class="main-content">
 
-<a href="Estratégia 1 Sons Altos.html">⬅     Protetores auriculares</a> 
+<a href="Estratégia 1 Sons Altos.html">⬅    Espaços de Refúgio</a> 
 
-<p>Para pessoas com TEA, tampões de ouvido e fones de ouvido com cancelamento de ruído podem ser extremamente úteis para reduzir a intensidade do som ambiente. Esses dispositivos ajudam a criar um ambiente mais controlado e menos estressante, bloqueando sons que podem ser perturbadores ou dolorosos. É importante escolher protetores auriculares confortáveis e adequados para uso prolongado, especialmente em ambientes barulhentos como escolas, locais de trabalho ou eventos sociais.</p>
+<p>Identificar e utilizar áreas tranquilas é crucial para evitar a sobrecarga sensorial. Aqui estão algumas dicas adicionais:
+ Solicitar Acomodações: Em eventos maiores, pode ser possível solicitar acomodações específicas, como acesso a uma sala de descanso ou a permissão para usar uma entrada menos movimentada.
+ Explorar Alternativas: Se não houver áreas designadas de refúgio, procurar alternativas como cafeterias próximas, parques ou até mesmo o carro, se estiver estacionado nas proximidades.
+ Personalização do Espaço: Levar itens que ajudem a personalizar o espaço de refúgio, como uma manta, travesseiro ou até mesmo um difusor de aromas calmantes.</p>
 </div>
 <div class="sidebar">
       

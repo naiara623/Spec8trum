@@ -34,9 +34,12 @@ function TécnicasDeRelaxamento6() {
 <div class="content">
 <div class="main-content">
 
-<a href="Estratégia 1 Sons Altos.html">⬅     Protetores auriculares</a> 
+<a href="Estratégia 1 Sons Altos.html">⬅   Técnicas de Relaxamento</a> 
 
-<p>Para pessoas com TEA, tampões de ouvido e fones de ouvido com cancelamento de ruído podem ser extremamente úteis para reduzir a intensidade do som ambiente. Esses dispositivos ajudam a criar um ambiente mais controlado e menos estressante, bloqueando sons que podem ser perturbadores ou dolorosos. É importante escolher protetores auriculares confortáveis e adequados para uso prolongado, especialmente em ambientes barulhentos como escolas, locais de trabalho ou eventos sociais.</p>
+<p>Praticar técnicas de respiração profunda, meditação ou outras atividades calmantes pode ser extremamente benéfico. Aqui estão algumas técnicas detalhadas:
+ Respiração 4-7-8: Inspirar pelo nariz contando até 4, segurar a respiração contando até 7 e expirar lentamente pela boca contando até 8. Repetir várias vezes até sentir-se mais calmo.
+ Meditação Mindfulness: Focar no momento presente, observando os pensamentos e sensações sem julgamento. Aplicativos como Headspace ou Calm podem ser úteis para guiar a prática.
+ Progressive Muscle Relaxation: Tensionar e relaxar grupos musculares específicos, começando pelos pés e subindo até a cabeça, para liberar a tensão acumulada.</p>
 </div>
 <div class="sidebar">
       

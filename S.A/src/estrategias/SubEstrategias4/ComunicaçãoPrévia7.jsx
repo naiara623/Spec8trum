@@ -34,9 +34,12 @@ function ComunicaçãoPrévia7() {
 <div class="content">
 <div class="main-content">
 
-<a href="Estratégia 1 Sons Altos.html">⬅     Protetores auriculares</a> 
+<a href="Estratégia 1 Sons Altos.html">⬅   Comunicação Prévia</a> 
 
-<p>Para pessoas com TEA, tampões de ouvido e fones de ouvido com cancelamento de ruído podem ser extremamente úteis para reduzir a intensidade do som ambiente. Esses dispositivos ajudam a criar um ambiente mais controlado e menos estressante, bloqueando sons que podem ser perturbadores ou dolorosos. É importante escolher protetores auriculares confortáveis e adequados para uso prolongado, especialmente em ambientes barulhentos como escolas, locais de trabalho ou eventos sociais.</p>
+<p>Informar amigos, familiares ou organizadores do evento sobre a sensibilidade a ambientes lotados pode levar a uma melhor compreensão e apoio. Aqui estão algumas dicas adicionais:
+ Cartões de Informação: Criar cartões de informação que expliquem brevemente as necessidades específicas e como os outros podem ajudar. Esses cartões podem ser entregues discretamente a organizadores ou seguranças.
+ Reuniões Prévias: Se possível, organizar reuniões prévias com os organizadores para discutir acomodações e garantir que todas as necessidades sejam atendidas.
+ Grupos de Apoio: Participar de grupos de apoio ou fóruns on-line onde é possível compartilhar experiências e obter dicas de outras pessoas que enfrentam desafios semelhantes.</p>
 </div>
 <div class="sidebar">
       

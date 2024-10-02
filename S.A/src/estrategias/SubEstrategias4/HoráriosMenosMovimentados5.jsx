@@ -34,9 +34,12 @@ function HoráriosMenosMovimentados5() {
 <div class="content">
 <div class="main-content">
 
-<a href="Estratégia 1 Sons Altos.html">⬅     Protetores auriculares</a> 
+<a href="Estratégia 1 Sons Altos.html">⬅    Horários Menos Movimentados</a> 
 
-<p>Para pessoas com TEA, tampões de ouvido e fones de ouvido com cancelamento de ruído podem ser extremamente úteis para reduzir a intensidade do som ambiente. Esses dispositivos ajudam a criar um ambiente mais controlado e menos estressante, bloqueando sons que podem ser perturbadores ou dolorosos. É importante escolher protetores auriculares confortáveis e adequados para uso prolongado, especialmente em ambientes barulhentos como escolas, locais de trabalho ou eventos sociais.</p>
+<p>Optar por participar de eventos ou visitar locais em horários menos movimentados pode fazer uma grande diferença. Aqui estão algumas estratégias adicionais:
+ Consulta de Horários: Verificar com antecedência os horários de menor movimento, seja através de sites, aplicativos ou entrando em contato diretamente com o local.
+ Reservas Antecipadas: Sempre que possível, fazer reservas antecipadas para garantir acesso em horários mais tranquilos e evitar filas.
+ Flexibilidade: Manter um plano flexível que permita ajustar os horários de visita conforme necessário, evitando picos de movimento.</p>
 </div>
 <div class="sidebar">
       

@@ -1,4 +1,5 @@
 import React from 'react'
+import './Cadastro.css'
 
 function Cadastro() {
   return (
@@ -6,6 +7,7 @@ function Cadastro() {
       <div className='container'>
         <center>
             <h1 className='escrita'>COMECE SEU CADASTRO</h1>
+           
            <br /><br />
 
            <input id="nomeUsuario" type="text" name="text" class="search-bar" placeholder="Nome Completo" />
@@ -55,28 +57,12 @@ function Cadastro() {
             </label>
 
         </div>
-        <input type="chekbox" id='cbx2' />
-         <label className='check'>
-            <svg width={"18px"} height={"18px"} viewBox='0 0 18 18'>
-                <path>
-                    d="M 1 9 L 1 9 c 0 -5 3 -8 8 -8 L 9 1 C 14 1 17 5 17 9 L 17 9 c 0 4 -4 8 -8 8 L 9 17 C 5 17 1 14 1 9 L 1 9 Z"
-                </path>
-                <polyline points='1 9 7 14 15 4'></polyline>
-            </svg>Concodo com os <a href="#">Termos de uso</a>
-            </label>  
-
+    
             <br /><br />
 
-            <button>Cadastra-se</button>
+            <button className='button'>Cadastra-se</button>
         </center>
 </div>
-            <center>
-
-<div>
-
-</div>
-            </center>
-      
     </div>
   )
 }

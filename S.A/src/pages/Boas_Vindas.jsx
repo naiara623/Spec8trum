@@ -1,13 +1,10 @@
-
-import "./Boas_Vindas.css"
-
+import './Boas_Vindas.css'
 
 function Boas_Vindas() {
   
   return (
     <div>
-      
-
+     
      <h1>SEJA BEM VINDO <br /> AO ESPECTRUM!</h1>
 
      <hr />

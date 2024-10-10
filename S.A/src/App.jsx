@@ -9,9 +9,7 @@ function App() {
   return (
     <>
 
-  <NavBar_Principal/>
   <Tela_Principal/>
-    <Boas_Vindas/>
 
     </>
   )

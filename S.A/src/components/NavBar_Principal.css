@@ -1,0 +1,20 @@
+.nav-conteine{
+    background-color: var(--cor-1);
+    height: 145px;
+    display: block;
+    width: 60%;
+}   
+
+img{
+
+width: auto;
+height: 70px;
+padding-top: 16px;
+padding-left: 30px;
+}
+
+button{
+
+    font-family:  "Josefin Sans", sans-serif;
+     
+}

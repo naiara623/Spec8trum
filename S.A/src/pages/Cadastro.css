@@ -1,44 +1,34 @@
 body{
     background-color: #214B51;
 }
-.container{
-    background-color: #0E3B43;
+.Container{
+  background-color: #0E3B43;
     width: 550px;
-    height: 630px;
+    height: 730px;
     padding: 3px;
     margin: auto;
-    margin-top: 2px;
     justify-content: center;
     align-items: center;
-    margin-top: 5%;
+    margin-top: 3%;
     padding-top: 0%;
     padding: 3% 4%;
     border-radius: 5%;
     box-shadow: 10px 5px 5px #0e3b4381;
 }
 
-hr{
-    margin-top: -60px;
-    margin-bottom: 45px;
-    margin-left: 4%;
-    width: 38%;
-    height: 60%;
-}
 
 h1{
 
     color: #EAF4F4;
     font-family: "Josefin Sans", sans-serif;
-    font-size: 65px;
+    font-size: 55px;
     width: fit-content;
     margin: 4% 4%;
     margin-top: 5px;
     /* gap: 5px 3px; (Espassamento entre os elementos na linhavertical e/ou horizontal) */ 
 }
 
-.container h2{
-    margin-top: 0;
-}
+
 .conteiner-botoes{
     margin-top: 20px;
 }
@@ -125,73 +115,7 @@ label{
     color: #0E3B43;
     
 }
-.check {
-    cursor: pointer;
-    position: relative;
-    margin: auto;
-    width: 18px;
-    height: 18px;
-    -webkit-tap-highlight-color: transparent;
-    transform: translate3d(0, 0, 0);
-  }
-  
-  .check:before {
-    content: "";
-    position: absolute;
-    top: -15px;
-    left: -15px;
-    width: 48px;
-    height: 48px;
-    border-radius: 50%;
-    background: rgba(34, 50, 84, 0.03);
-    opacity: 0;
-    transition: opacity 0.2s ease;
-  }
-  
-  .check svg {
-    position: relative;
-    z-index: 1;
-    fill: none;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke: #c8ccd4;
-    stroke-width: 1.5;
-    transform: translate3d(0, 0, 0);
-    transition: all 0.2s ease;
-  }
-  
-  .check svg path {
-    stroke-dasharray: 60;
-    stroke-dashoffset: 0;
-  }
-  
-  .check svg polyline {
-    stroke-dasharray: 22;
-    stroke-dashoffset: 66;
-  }
-  
-  .check:hover:before {
-    opacity: 1;
-  }
-  
-  .check:hover svg {
-    stroke: var(--accent-color, #a3e583);
-  }
-  
-  #cbx2:checked + .check svg {
-    stroke: var(--accent-color, #a3e583);
-  }
-  
-  #cbx2:checked + .check svg path {
-    stroke-dashoffset: 60;
-    transition: all 0.3s linear;
-  }
-  
-  #cbx2:checked + .check svg polyline {
-    stroke-dashoffset: 42;
-    transition: all 0.2s linear;
-    transition-delay: 0.15s;
-  }
+
   .input {
     -webkit-appearance: none;
    /* remove default */
@@ -398,3 +322,71 @@ label{
     .button:active {
      filter: brightness(.8);
     } 
+
+    .check {
+      cursor: pointer;
+      position: relative;
+      margin: auto;
+      width: 18px;
+      height: 18px;
+      -webkit-tap-highlight-color: transparent;
+      transform: translate3d(0, 0, 0);
+    }
+    
+    .check:before {
+      content: "";
+      position: absolute;
+      top: -15px;
+      left: -15px;
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      background: rgba(34, 50, 84, 0.03);
+      opacity: 0;
+      transition: opacity 0.2s ease;
+    }
+    
+    .check svg {
+      position: relative;
+      z-index: 1;
+      fill: none;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke: #c8ccd4;
+      stroke-width: 1.5;
+      transform: translate3d(0, 0, 0);
+      transition: all 0.2s ease;
+    }
+    
+    .check svg path {
+      stroke-dasharray: 60;
+      stroke-dashoffset: 0;
+    }
+    
+    .check svg polyline {
+      stroke-dasharray: 22;
+      stroke-dashoffset: 66;
+    }
+    
+    .check:hover:before {
+      opacity: 1;
+    }
+    
+    .check:hover svg {
+      stroke: var(--accent-color, #a3e583);
+    }
+    
+    #cbx2:checked + .check svg {
+      stroke: var(--accent-color, #a3e583);
+    }
+    
+    #cbx2:checked + .check svg path {
+      stroke-dashoffset: 60;
+      transition: all 0.3s linear;
+    }
+    
+    #cbx2:checked + .check svg polyline {
+      stroke-dashoffset: 42;
+      transition: all 0.2s linear;
+      transition-delay: 0.15s;
+    }

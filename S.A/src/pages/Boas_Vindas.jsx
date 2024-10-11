@@ -1,9 +1,22 @@
+// import Navbar_Vindas from '../components/Navbar_Vindas'
 import './Boas_Vindas.css'
-
+import React, { useState } from 'react'
+import Cadastro from './Cadastro'
 function Boas_Vindas() {
+  // const [pagina, setPagina] = useState(<Boas_Vindas />)
+
   
   return (
     <div>
+      <nav className='navbar'>
+
+        <img src="logo spectrum.png" alt="logo do site" />
+
+ <button className='button'>Entrar</button>
+
+ <button className='button'>Cadastre-se</button>
+
+      </nav>
      
      <h1>SEJA BEM VINDO <br /> AO ESPECTRUM!</h1>
 
@@ -27,6 +40,8 @@ function Boas_Vindas() {
         <img src="https://i.pinimg.com/564x/31/39/79/313979331e10d6f9e4bde5e7e701d8ac.jpg" alt="Carrosel sobre autismo" />
 
       </div>
+
+      {/* {pagina} */}
     </div>
   )
 }

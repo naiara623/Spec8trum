@@ -10,9 +10,10 @@ function Cadastro() {
            
            <br /><br />
 
-           <input id="nomeUsuario" type="text" name="text" class="search-bar" placeholder="Nome Completo" />
-      <input id="nomeUsuario" type="text" name="text" class="search-bar" placeholder="Nome Completo" />
-      <input id="nomeUsuario" type="text" name="text" class="search-bar" placeholder="Nome Completo" />
+           <input id="nomeUsuario" type="text" name="text" class="search-bar" placeholder="Nome Completo" /><br />
+      <input id="nomeUsuario" type="text" name="text" class="search-bar" placeholder="Nome Completo" /><br />
+      <input id="nomeUsuario" type="text" name="text" class="search-bar" placeholder="Nome Completo" /> <br />
+      <br />
 
       <div className='radio-wrapper'>
         <label className='radio-button'>
@@ -58,7 +59,7 @@ function Cadastro() {
 
         </div>
     
-            <br /><br />
+            
 
             <input type="checkbox" id="cbx2" style={{ display: "none" }} />
         <label htmlFor="cbx2" className="check">
@@ -70,7 +71,7 @@ function Cadastro() {
 
         <br /><br />
 
-            <button className='button'>Cadastra-se</button>
+            <button className='oi'>Cadastra-se</button>
         </center>
 </div>
     </div>

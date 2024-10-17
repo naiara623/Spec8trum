@@ -3,8 +3,8 @@ body{
 }
 .Container{
   background-color: #0E3B43;
-    width: 550px;
-    height: 730px;
+    width: 620px;
+    height: 780px;
     padding: 3px;
     margin: auto;
     justify-content: center;
@@ -57,59 +57,7 @@ a{
 label{
     color: #eaf4f4;
 }
-.button {
-    --color: #a3bbad;
-    padding: 0.8em 1.7em;
-    background-color: transparent;
-    border-radius: .3em;
-    position: relative;
-    overflow: hidden;
-    cursor: pointer;
-    transition: .5s;
-    font-weight: 400;
-    font-size: 17px;
-    border: 1px solid;
-    font-family: inherit;
-    text-transform: uppercase;
-    color: var(--color);
-    z-index: 1;
-   }
-   
-   .button::before, .button::after {
-    content: '';
-    display: block;
-    width: 50px;
-    height: 50px;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    border-radius: 50%;
-    z-index: -1;
-    background-color: var(--color);
-    transition: 1s ease;
-   }
-   
-   .button::before {
-    top: -1em;
-    left: -1em;
-   }
-   
-   .button::after {
-    left: calc(100% + 1em);
-    top: calc(100% + 1em);
-   }
-   
-   .button:hover::before, .button:hover::after {
-    height: 410px;
-    width: 410px;
-   }
-   
-   .button:hover {
-    color: rgb(10, 25, 30);
-   }
-   
-   .button:active {
-    filter: brightness(.8);
-   }
+
 .dados::placeholder{
 
     color: #0E3B43;
@@ -144,6 +92,7 @@ label{
   
   .radio-wrapper {
     margin-bottom: 20px;
+    padding-left: 150px;
   }
   
   .radio-button {
@@ -266,63 +215,6 @@ label{
     border-bottom: 2px solid #A3BBAD;
   }
 
-  .button {
-    margin-right: 20px;
-    --color: #EAF4F4;
-    padding: 0.8em 1.7em;
-    background-color: transparent;
-    border-radius: .3em;
-    position: relative;
-    overflow: hidden;
-    cursor: pointer;
-    transition: .5s;
-    font-weight: 400;
-    font-size: 17px;
-    border: 1px solid;
-    font-family: inherit;
-    text-transform: uppercase;
-    color: var(--color);
-    z-index: 1;
-    width: 45%;
-    height: 50px;
-   }
-   
-   .button::before, .button::after {
-    content: '';
-    display: block;
-    width: 20%;
-    height: 10px;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    border-radius: 50%;
-    z-index: -1;
-    background-color: var(--color);
-    transition: 1s ease;
-   }
-   
-   .button::before {
-    top: -1em;
-    left: -1em;
-   } 
-   
-   .button::after {
-    left: calc(100% + 1em);
-    top: calc(100% + 1em);
-   } 
-   
-   .button:hover::before, .button:hover::after {
-    height: 410px;
-    width: 410px;
-   } 
-   
-  .button:hover {
-    color: #0E3B43;
-   } 
-   
-    .button:active {
-     filter: brightness(.8);
-    } 
-
     .check {
       cursor: pointer;
       position: relative;
@@ -390,3 +282,60 @@ label{
       transition: all 0.2s linear;
       transition-delay: 0.15s;
     }
+
+    .oi {
+      margin-right: 20px;
+      --color: #EAF4F4;
+      padding: 0.8em 1.7em;
+      background-color: transparent;
+      border-radius: .3em;
+      position: relative;
+      overflow: hidden;
+      cursor: pointer;
+      transition: .5s;
+      font-weight: 400;
+      font-size: 17px;
+      border: 1px solid;
+      font-family: inherit;
+      text-transform: uppercase;
+      color: var(--color);
+      z-index: 1;
+      /* width: 50%;
+      height: 50px; */
+     }
+     
+     .oi::before, .oi::after {
+      content: '';
+      display: block;
+      width: 20%;
+      height: 10px;
+      transform: translate(-50%, -50%);
+      position: absolute;
+      border-radius: 50%;
+      z-index: -1;
+      background-color: var(--color);
+      transition: 1s ease;
+     }
+     
+     .oi::before {
+      top: -1em;
+      left: -1em;
+     } 
+     
+     .oi::after {
+      left: calc(100% + 1em);
+      top: calc(100% + 1em);
+     } 
+     
+     .oi:hover::before, .oi:hover::after {
+      height: 410px;
+      width: 410px;
+     } 
+     
+    .oi:hover {
+      color: #0E3B43;
+     } 
+     
+      .oi:active {
+       filter: brightness(.8);
+      } 

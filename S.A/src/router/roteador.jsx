@@ -12,7 +12,7 @@ const roteador = createBrowserRouter([
     // {path: "/", element: <Cadastro />},
     {path: "/cadastro", element: <Cadastro />},
     {path: "/login", element: <Login />},
-    {path: "/tela principal", element: <Tela_Principal/>},
+    {path: "/telaprincipal", element: <Tela_Principal/>},
    
 ])
 

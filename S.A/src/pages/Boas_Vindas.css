@@ -1,9 +1,4 @@
-body{
 
-    background: linear-gradient(90deg, rgba(33,75,81,1) 0%, rgba(33,75,81,1) 100%);;
-    margin: 0;
-    
-}
 
 
 h1{
@@ -80,7 +75,7 @@ p{
 
 
 
-.button {
+.Button {
     margin-right: 20px;
     --color: #EAF4F4;
     padding: 0.8em 1.7em;
@@ -97,11 +92,12 @@ p{
     text-transform: uppercase;
     color: var(--color);
     z-index: 1;
-    width: 20%;
+    width: 18%;
     height: 50px;
+
    }
    
-   .button::before, .button::after {
+   .Button::before, .Button::after {
     content: '';
     display: block;
     width: 20%;
@@ -114,25 +110,25 @@ p{
     transition: 1s ease;
    }
    
-   .button::before {
+   .Button::before {
     top: -1em;
     left: -1em;
    }
    
-   .button::after {
+   .Button::after {
     left: calc(100% + 1em);
     top: calc(100% + 1em);
    }
    
-   .button:hover::before, .button:hover::after {
+   .Button:hover::before, .Button:hover::after {
     height: 410px;
     width: 410px;
    }
    
-   .button:hover {
+   .Button:hover {
     color: #0E3B43;
    }
    
-    .button:active {
+    .Button:active {
      filter: brightness(.8);    
     }

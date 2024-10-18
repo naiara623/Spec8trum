@@ -1,10 +1,6 @@
-// import Navbar_Vindas from '../components/Navbar_Vindas'
 import './Boas_Vindas.css'
 import React, { useState } from 'react'
-import Cadastro from './Cadastro'
 function Boas_Vindas() {
-  // const [pagina, setPagina] = useState(<Boas_Vindas />)
-
   
   return (
     <div>
@@ -12,9 +8,8 @@ function Boas_Vindas() {
 
         <img src="logo spectrum.png" alt="logo do site" />
 
- <button className='button'>Entrar</button>
-
- <button className='button'>Cadastre-se</button>
+<button className='Button'>Entrar</button>
+<button className='Button'>Cadastrar-se</button>
 
       </nav>
      

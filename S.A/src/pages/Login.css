@@ -1,45 +1,117 @@
 body{
 
-    background: linear-gradient(90deg, rgba(33,75,81,1) 0%, rgba(33,75,81,1) 100%);
+    background: rgb(14,59,67);
+    background: linear-gradient(90deg, rgba(14,59,67,1) 2%, rgba(33,75,81,1) 47%, rgba(67,126,121,0.938813025210084) 100%);
 }
 
 .container{
-    background: linear-gradient(90deg, rgba(14,59,67,1) 0%, rgba(14,59,67,1) 100%);
+
     border-radius: 20px;
     width: 500px;
-    height: 400px;
-    text-align: 40%;
-    
-    margin-top: 10%;
+    height: 380px;
+    text-align: 40%; 
+    margin-top: 4%;
+    margin-left: 35%;
     padding: 20px;
-    box-shadow: 10px 5px 5px #0e3b4381;
+}
+.kk{
+    margin-left: 25%;
+    margin-top: -5px;
+}
+h2{
+    
+        font-size: 65px;
+        font-family: "Josefin Sans", sans-serif;
+        color: #EAF4F4;
+     margin-left: 4%;
+    
 }
 
-.container h2{
-    font-family: "Roboto", sans-serif;
-    font-size: 15px;
-
+.inputContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
+#inputField {
+  border: 2px solid white;
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 12px 15px;
+  color: black;
+  font-weight: 500;
+  outline: none;
+  caret-color: var(--cor-5);
+  transition-duration: .3s;
+  font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.userIcon {
+  position: absolute;
+  fill: var(--cor-5);
+  width: 12px;
+  top: -23px;
+  left: -15px;
+  opacity: 0;
+  transition: .2s linear;
+}
+
+.usernameLabel {
+  position: absolute;
+  top: -25px;
+  left: 5px;
+  color: transparent;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  overflow: hidden;
+  transition: .2s linear;
+  opacity: 0;
+}
+
+#inputField:focus ~ .usernameLabel,
+#inputField:valid ~ .usernameLabel {
+  transform: translateX(20px);
+  opacity: 1;
+}
+
+#inputField:focus ~ .userIcon,
+#inputField:valid ~ .userIcon {
+  transform: translateX(20px);
+  opacity: 1;
+}
+
+#inputField:focus,
+#inputField:valid {
+  background-color: transparent;
+  transition-duration: .3s;
+}
+
+
+h3{
+    font-size:30px;
+    
+}
 .container-input{
-    width: 200px;
-    height: 35px;
+    width: 280px;
+    height: 50px;
     border-radius: 5px;
     outline: none;
-    border-bottom: 2px solid #214B51;
     padding-left: 10px;
     padding-right: 10px;
-    background-color: #EAF4F4;
-    color: #0E3B43;
+    background-color: transparent;
     transition: all 0.3s ease;
+    margin-left: 20%;
+   
   }
-  
+
   .container-input::placeholder {
-    color: #0E3B43;
+    color: #EAF4F4;
   }
   
   .container-input:hover {
-    background-color: #A3BBAD;
+    background-color: #597B78;
     color: #EAF4F4;
   }
   
@@ -62,9 +134,10 @@ body{
 .text{
 font-family: "Roboto", sans-serif;
 color: #EAF4F4;
+margin-left: 20%;
 }
 
-h1{
+h2{
     margin-top: 10%;
     font-family: "Josefin Sans", sans-serif;
     color: #EAF4F4;
@@ -85,6 +158,7 @@ h1{
     text-transform: uppercase;
     color: var(--color);
     z-index: 1;
+    margin-left: 30%;
    }
    
    .button::before, .button::after {

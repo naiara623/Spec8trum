@@ -1,9 +1,7 @@
 // import Navbar_Vindas from '../components/Navbar_Vindas'
 import './Boas_Vindas.css'
 import React, { useState } from 'react'
-import Cadastro from './Cadastro'
 function Boas_Vindas() {
-  // const [pagina, setPagina] = useState(<Boas_Vindas />)
 
   
   return (

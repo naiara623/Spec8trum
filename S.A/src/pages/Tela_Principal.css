@@ -1,0 +1,37 @@
+.tela-principal{
+    background: #214b51;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+.navbar-menu{
+    margin-left: 15px;
+    height: fit-content;
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.button-inicio{
+    background-color: transparent;
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #EAF4F4;
+    border: 0px;
+}
+
+a{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #EAF4F4;
+    border: 0px;
+    text-decoration: none;
+}
+
+.inicio:hover{
+    cursor: pointer;
+    color: #597B78;
+}

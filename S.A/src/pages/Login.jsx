@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 
 function Login() {
   return (
-    <div>
+    <div className='body-login'>
 
       <div className='kk'>
           <h2>BEM VINDO(A) DE VOLTA!</h2>

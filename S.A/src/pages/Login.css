@@ -1,0 +1,198 @@
+body{
+
+    background: rgb(14,59,67);
+    background: linear-gradient(90deg, rgba(14,59,67,1) 2%, rgba(33,75,81,1) 47%, rgba(67,126,121,0.938813025210084) 100%);
+}
+
+.container{
+
+    border-radius: 20px;
+    width: 500px;
+    height: 380px;
+    text-align: 40%; 
+    margin-top: 4%;
+    margin-left: 35%;
+    padding: 20px;
+}
+.kk{
+    margin-left: 25%;
+    margin-top: -5px;
+}
+h2{
+    
+        font-size: 65px;
+        font-family: "Josefin Sans", sans-serif;
+        color: #EAF4F4;
+     margin-left: 4%;
+    
+}
+
+.inputContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#inputField {
+  border: 2px solid white;
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 12px 15px;
+  color: black;
+  font-weight: 500;
+  outline: none;
+  caret-color: var(--cor-5);
+  transition-duration: .3s;
+  font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.userIcon {
+  position: absolute;
+  fill: var(--cor-5);
+  width: 12px;
+  top: -23px;
+  left: -15px;
+  opacity: 0;
+  transition: .2s linear;
+}
+
+.usernameLabel {
+  position: absolute;
+  top: -25px;
+  left: 5px;
+  color: transparent;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  overflow: hidden;
+  transition: .2s linear;
+  opacity: 0;
+}
+
+#inputField:focus ~ .usernameLabel,
+#inputField:valid ~ .usernameLabel {
+  transform: translateX(20px);
+  opacity: 1;
+}
+
+#inputField:focus ~ .userIcon,
+#inputField:valid ~ .userIcon {
+  transform: translateX(20px);
+  opacity: 1;
+}
+
+#inputField:focus,
+#inputField:valid {
+  background-color: transparent;
+  transition-duration: .3s;
+}
+
+
+h3{
+    font-size:30px;
+    
+}
+.container-input{
+    width: 280px;
+    height: 50px;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: transparent;
+    transition: all 0.3s ease;
+    margin-left: 20%;
+   
+  }
+
+  .container-input::placeholder {
+    color: #EAF4F4;
+  }
+  
+  .container-input:hover {
+    background-color: #597B78;
+    color: #EAF4F4;
+  }
+  
+  .container-input:active,
+  .container-input:focus {
+    background-color: #597B78;
+    border-bottom: 2px solid #A3BBAD;
+}
+
+.container button{
+    border-radius: 9px;
+    width: 170px;
+    height: 35px;
+}
+
+.container a{
+    color: #A3BBAD;
+}
+
+.text{
+font-family: "Roboto", sans-serif;
+color: #EAF4F4;
+margin-left: 20%;
+}
+
+h2{
+    margin-top: 10%;
+    font-family: "Josefin Sans", sans-serif;
+    color: #EAF4F4;
+}
+
+.button {
+    --color: #EAF4F4;
+    background-color: transparent;
+    border-radius: 9px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: 400;
+    font-size: 17px;
+    border: 1px solid;
+    font-family: inherit;
+    text-transform: uppercase;
+    color: var(--color);
+    z-index: 1;
+    margin-left: 30%;
+   }
+   
+   .button::before, .button::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 50px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+    background-color: var(--color);
+    transition: 1s ease;
+   }
+   
+   .button::before {
+    top: -1em;
+    left: -1em;
+   }
+   
+   .button::after {
+    left: calc(100% + 1em);
+    top: calc(100% + 1em);
+   }
+   
+   .button:hover::before, .button:hover::after {
+    height: 410px;
+    width: 410px;
+   }
+   
+   .button:hover {
+    color: #0E3B43;
+   }
+   
+   .button:active {
+    filter: brightness(.8);
+   }

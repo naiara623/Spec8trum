@@ -1,13 +1,18 @@
-
-import "./Boas_Vindas.css"
-
-
+import './Boas_Vindas.css'
+import React, { useState } from 'react'
 function Boas_Vindas() {
   
   return (
     <div>
-      
+      <nav className='navbar'>
 
+        <img src="logo spectrum.png" alt="logo do site" />
+
+<button className='Button'>Entrar</button>
+<button className='Button'>Cadastrar-se</button>
+
+      </nav>
+     
      <h1>SEJA BEM VINDO <br /> AO ESPECTRUM!</h1>
 
      <hr />
@@ -30,6 +35,8 @@ function Boas_Vindas() {
         <img src="https://i.pinimg.com/564x/31/39/79/313979331e10d6f9e4bde5e7e701d8ac.jpg" alt="Carrosel sobre autismo" />
 
       </div>
+
+      {/* {pagina} */}
     </div>
   )
 }

@@ -34,17 +34,17 @@ function EspaçosTranquilos2() {
 <div class="content">
 <div class="main-content">
 
-<h2>Espaços Tranquilos</h2>
+<button href="Estratégia 1 Sons Altos.html">⬅     Espaços Tranquilos</button> 
 <p>Identificar e utilizar áreas silenciosas pode proporcionar um alívio significativo para pessoas com TEA. Ambientes como bibliotecas, parques tranquilos ou salas de meditação são ideais para momentos de sobrecarga sensorial. Em casa, criar um espaço tranquilo com isolamento acústico pode ser extremamente benéfico. Isso pode incluir o uso de cortinas pesadas, tapetes e móveis estofados para absorver o som, além de plantas que ajudam a criar uma atmosfera calma.</p>
 </div>
 <div class="sidebar">
       
 <h3>Estratégias para:</h3>
 <ul>
-<li> <a href="Estratégia 1 Sons Altos.html">Sons Altos</a></li>
-<li> <a href="Estratégia 2 Mudança na Rotina.html">Mudança na Rotina</a></li>
-<li> <a href="Estratégia 3 Rotas diferentes do previsto.html">Rotas diferentes do previsto</a></li>
-<li> <a href="Estratégia 4 Muitas pessoas em um ambiente.html">Muitas pessoas em um ambiente</a></li>
+<li> <button href="Estratégia 1 Sons Altos.html">Sons Altos</button></li>
+<li> <button href="Estratégia 2 Mudança na Rotina.html">Mudança na Rotina</button></li>
+<li> <button href="Estratégia 3 Rotas diferentes do previsto.html">Rotas diferentes do previsto</button></li>
+<li> <button href="Estratégia 4 Muitas pessoas em um ambiente.html">Muitas pessoas em um ambiente</button></li>
 </ul>
 
 </div>

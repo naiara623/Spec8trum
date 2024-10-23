@@ -1,25 +1,19 @@
-<<<<<<< HEAD
-import { useState } from 'react'
 
-=======
->>>>>>> 2f80797345fdddc1a511cdb577f5c5e70570e144
+import { useState } from 'react'
+import Boas_Vindas from "./pages/Boas_Vindas"
+import Cadastro from "./pages/Cadastro"
+import Estrategia1 from "./estrategias/Estrategia1"
 import './App.css'
 
 
 function App() {
-<<<<<<< HEAD
- 
-
-  return (
-    <>
-     
-=======
-
-
   return (
     <>
     
->>>>>>> 2f80797345fdddc1a511cdb577f5c5e70570e144
+<Boas_Vindas/>
+<Cadastro />
+<Estrategia1 />
+
     </>
   )
 }

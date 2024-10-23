@@ -34,17 +34,17 @@ function MúsicaOuRuídoBranco6() {
 <div class="content">
 <div class="main-content">
 
-<h2>Música ou Ruído Branco</h2>
+<button href="Estratégia 1 Sons Altos.html">⬅     Música ou Ruído Branco</button>
 <p>Ouvir música suave ou ruído branco pode ser uma maneira eficaz de mascarar sons altos indesejados e criar um ambiente mais controlado. Para pessoas com TEA, a música clássica, sons da natureza, como chuva ou ondas do mar, e playlists de música relaxante podem ajudar a melhorar a concentração e promover o relaxamento. Aplicativos de ruído branco, que reproduzem sons constantes como o de um ventilador ou chuva, são úteis para bloquear ruídos perturbadores e criar um ambiente mais tranquilo.</p>
 </div>
 <div class="sidebar">
       
 <h3>Estratégias para:</h3>
 <ul>
-<li> <a href="Estratégia 1 Sons Altos.html">Sons Altos</a></li>
-<li> <a href="Estratégia 2 Mudança na Rotina.html">Mudança na Rotina</a></li>
-<li> <a href="Estratégia 3 Rotas diferentes do previsto.html">Rotas diferentes do previsto</a></li>
-<li> <a href="Estratégia 4 Muitas pessoas em um ambiente.html">Muitas pessoas em um ambiente</a></li>
+<li> <button href="Estratégia 1 Sons Altos.html">Sons Altos</button></li>
+<li> <button href="Estratégia 2 Mudança na Rotina.html">Mudança na Rotina</button></li>
+<li> <button href="Estratégia 3 Rotas diferentes do previsto.html">Rotas diferentes do previsto</button></li>
+<li> <button href="Estratégia 4 Muitas pessoas em um ambiente.html">Muitas pessoas em um ambiente</button></li>
 </ul>
 
 </div>

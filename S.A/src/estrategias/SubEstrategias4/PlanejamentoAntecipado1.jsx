@@ -34,7 +34,7 @@ function PlanejamentoAntecipado1() {
 <div class="content">
 <div class="main-content">
 
-<a href="Estratégia 1 Sons Altos.html">⬅    Planejamento Antecipado</a> 
+<button href="Estratégia 1 Sons Altos.html">⬅    Planejamento Antecipado</button> 
 
 <p>Informar-se sobre o evento ou situação com antecedência* é essencial para reduzir a ansiedade e aumentar a sensação de controle. Aqui estão algumas estratégias detalhadas:
  Mapas e Layouts: Obter mapas do local do evento pode ajudar a identificar áreas importantes como saídas de emergência, banheiros, áreas de alimentação e espaços tranquilos. Isso permite planejar rotas e evitar áreas potencialmente estressantes.
@@ -45,10 +45,10 @@ function PlanejamentoAntecipado1() {
       
 <h3>Estratégias para:</h3>
 <ul>
-<li> <a href="Estratégia 1 Sons Altos.html">Sons Altos</a></li>
-<li> <a href="Estratégia 2 Mudança na Rotina.html">Mudança na Rotina</a></li>
-<li> <a href="Estratégia 3 Rotas diferentes do previsto.html">Rotas diferentes do previsto</a></li>
-<li> <a href="Estratégia 4 Muitas pessoas em um ambiente.html">Muitas pessoas em um ambiente</a></li>
+<li> <button href="Estratégia 1 Sons Altos.html">Sons Altos</button></li>
+<li> <button href="Estratégia 2 Mudança na Rotina.html">Mudança na Rotina</button></li>
+<li> <button href="Estratégia 3 Rotas diferentes do previsto.html">Rotas diferentes do previsto</button></li>
+<li> <button href="Estratégia 4 Muitas pessoas em um ambiente.html">Muitas pessoas em um ambiente</button></li>
 </ul>
 
 </div>

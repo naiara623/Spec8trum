@@ -34,7 +34,7 @@ function ComunicaçãoPrévia7() {
 <div class="content">
 <div class="main-content">
 
-<a href="Estratégia 1 Sons Altos.html">⬅   Comunicação Prévia</a> 
+<button href="Estratégia 1 Sons Altos.html">⬅   Comunicação Prévia</button> 
 
 <p>Informar amigos, familiares ou organizadores do evento sobre a sensibilidade a ambientes lotados pode levar a uma melhor compreensão e apoio. Aqui estão algumas dicas adicionais:
  Cartões de Informação: Criar cartões de informação que expliquem brevemente as necessidades específicas e como os outros podem ajudar. Esses cartões podem ser entregues discretamente a organizadores ou seguranças.
@@ -45,10 +45,10 @@ function ComunicaçãoPrévia7() {
       
 <h3>Estratégias para:</h3>
 <ul>
-<li> <a href="Estratégia 1 Sons Altos.html">Sons Altos</a></li>
-<li> <a href="Estratégia 2 Mudança na Rotina.html">Mudança na Rotina</a></li>
-<li> <a href="Estratégia 3 Rotas diferentes do previsto.html">Rotas diferentes do previsto</a></li>
-<li> <a href="Estratégia 4 Muitas pessoas em um ambiente.html">Muitas pessoas em um ambiente</a></li>
+<li> <button href="Estratégia 1 Sons Altos.html">Sons Altos</button></li>
+<li> <button href="Estratégia 2 Mudança na Rotina.html">Mudança na Rotina</button></li>
+<li> <button href="Estratégia 3 Rotas diferentes do previsto.html">Rotas diferentes do previsto</button></li>
+<li> <button href="Estratégia 4 Muitas pessoas em um ambiente.html">Muitas pessoas em um ambiente</button></li>
 </ul>
 
 </div>

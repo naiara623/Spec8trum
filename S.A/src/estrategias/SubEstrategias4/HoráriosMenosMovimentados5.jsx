@@ -34,7 +34,7 @@ function HoráriosMenosMovimentados5() {
 <div class="content">
 <div class="main-content">
 
-<a href="Estratégia 1 Sons Altos.html">⬅    Horários Menos Movimentados</a> 
+<button href="Estratégia 1 Sons Altos.html">⬅    Horários Menos Movimentados</button> 
 
 <p>Optar por participar de eventos ou visitar locais em horários menos movimentados pode fazer uma grande diferença. Aqui estão algumas estratégias adicionais:
  Consulta de Horários: Verificar com antecedência os horários de menor movimento, seja através de sites, aplicativos ou entrando em contato diretamente com o local.
@@ -45,10 +45,10 @@ function HoráriosMenosMovimentados5() {
       
 <h3>Estratégias para:</h3>
 <ul>
-<li> <a href="Estratégia 1 Sons Altos.html">Sons Altos</a></li>
-<li> <a href="Estratégia 2 Mudança na Rotina.html">Mudança na Rotina</a></li>
-<li> <a href="Estratégia 3 Rotas diferentes do previsto.html">Rotas diferentes do previsto</a></li>
-<li> <a href="Estratégia 4 Muitas pessoas em um ambiente.html">Muitas pessoas em um ambiente</a></li>
+<li> <button href="Estratégia 1 Sons Altos.html">Sons Altos</button></li>
+<li> <button href="Estratégia 2 Mudança na Rotina.html">Mudança na Rotina</button></li>
+<li> <button href="Estratégia 3 Rotas diferentes do previsto.html">Rotas diferentes do previsto</button></li>
+<li> <button href="Estratégia 4 Muitas pessoas em um ambiente.html">Muitas pessoas em um ambiente</button></li>
 </ul>
 
 </div>

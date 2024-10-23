@@ -35,17 +35,16 @@ function ReforçoPositivo7() {
 <div class="main-content">
 
 <h2>Reforço Positivo</h2>
-<p>O reforço positivo é uma ferramenta poderosa para encorajar a adaptação e aceitação das mudanças. Isso pode incluir elogios verbais, recompensas tangíveis ou atividades prazerosas como forma de reconhecimento pelo esforço e progresso. O reforço deve ser imediato e específico, destacando exatamente o que a pessoa fez bem e como isso contribuiu para a adaptação à mudança.
-</p>
+<p>O reforço positivo é uma ferramenta poderosa para encorajar a adaptação e aceitação das mudanças. Isso pode incluir elogios verbais, recompensas tangíveis ou atividades prazerosas como forma de reconhecimento pelo esforço e progresso. O reforço deve ser imediato e específico, destacando exatamente o que a pessoa fez bem e como isso contribuiu para a adaptação à mudança.</p>
 </div>
 <div class="sidebar">
       
 <h3>Estratégias para:</h3>
 <ul>
-<li> <a href="Estratégia 1 Sons Altos.html">Sons Altos</a></li>
-<li> <a href="Estratégia 2 Mudança na Rotina.html">Mudança na Rotina</a></li>
-<li> <a href="Estratégia 3 Rotas diferentes do previsto.html">Rotas diferentes do previsto</a></li>
-<li> <a href="Estratégia 4 Muitas pessoas em um ambiente.html">Muitas pessoas em um ambiente</a></li>
+<li> <button href="Estratégia 1 Sons Altos.html">Sons Altos</button></li>
+<li> <button href="Estratégia 2 Mudança na Rotina.html">Mudança na Rotina</button></li>
+<li> <button href="Estratégia 3 Rotas diferentes do previsto.html">Rotas diferentes do previsto</button></li>
+<li> <button href="Estratégia 4 Muitas pessoas em um ambiente.html">Muitas pessoas em um ambiente</button></li>
 </ul>
 
 </div>

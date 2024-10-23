@@ -1,12 +1,9 @@
 import React from 'react'
-import './NavBar_Principal.css'
-
 
 function NavBar_Principal() {
-
   return (
-    <div >
-  
+    <div>
+      oi
     </div>
   )
 }

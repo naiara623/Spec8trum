@@ -3,6 +3,8 @@ import Cadastro from "../pages/Cadastro"
 import Login from "../pages/Login"
 import Boas_Vindas from "../pages/Boas_Vindas";
 import Tela_Principal from "../pages/Tela_Principal";
+import Tela_Informacoes from "../pages/Tela_Informacoes";
+import Tela_Profissional from "../pages/Tela_Profissional";
 
 
 
@@ -13,7 +15,8 @@ const roteador = createBrowserRouter([
     {path: "/cadastro", element: <Cadastro />},
     {path: "/login", element: <Login />},
     {path: "/telaprincipal", element: <Tela_Principal/>},
-   
+    {path: "/telainformações", element: <Tela_Informacoes/>},
+    {path: "/pefilprofissional", element: <Tela_Profissional/>},
 ])
 
 export default roteador

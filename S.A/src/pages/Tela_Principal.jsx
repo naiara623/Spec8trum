@@ -7,7 +7,7 @@ function Tela_Principal() {
   return (
     <header className='tela-principal'>
       <NavBar_Principal />
-        <h1>oiiiii</h1>
+        <h1>oi</h1>
        
       </header>
   )

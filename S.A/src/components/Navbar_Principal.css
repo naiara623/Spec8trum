@@ -16,56 +16,108 @@ nav{
     height: 76px;
     width: 65%;
     padding: 12px;
+
 }
 
 .logo_div{
-    border: 3px solid rgb(221, 215, 215);
     margin-top: -1%;
+    height: 90%;
+    width: 20%;
 }
 .containe{
     justify-content: space-between;
     width: 100%;
     display: flex;
     padding-top: 2%;
-    border: 3px solid red;
-   
+
 }
 
-.buscar{
-    margin: auto;
-    margin-top: -0%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: fit-content;
-    border: 3px solid yellowgreen;
-}
-
-.lupa{
-    width: 50px;
-    height: 45px;
-}
-
-.input-busca{
-    height: 30px;
-    width: 500px;
-    border-radius: 13px;
-}
-
+      .inputContainer {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 20%;
+        margin-left: 10%;
+        margin-top: 6%;
+        transform: translateY(-120px); /* Ajuste o valor conforme necessário */
+      }
+      
+      input::placeholder{
+        color:#62766a;
+        opacity: 1000;
+      }
+      
+      #inputField {
+        border: 2px solid white;
+        background-color: #EAF4F4;
+        border-radius: 10px;
+        padding: 12px 15px;
+        color: #0e3b43;
+        font-weight: 500;
+        outline: none;
+        caret-color:var(--cor-2);
+        transition-duration: .3s;
+        font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      }
+      
+      .userIcon {
+        position: absolute;
+        fill: #A3BBAD;
+        width: 12px;
+        top: -23px;
+        left: -15px;
+        opacity: 0;
+        transition: .2s linear;
+      }
+      
+      .usernameLabel {
+        position: absolute;
+        top: -25px;
+        left: 5px;
+        color: #EAF4F4;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+        overflow: hidden;
+        transition: .2s linear;
+        opacity: 0;
+      }
+      
+      #inputField:focus ~ .usernameLabel,
+      #inputField:valid ~ .usernameLabel {
+        transform: translateX(20px);
+        opacity: 1;
+      }
+      
+      #inputField:focus ~ .userIcon,
+      #inputField:valid ~ .userIcon {
+        transform: translateX(20px);
+        opacity: 1;
+      }
+      
+      #inputField:focus,
+      #inputField:valid {
+        background-color: #EAF4F4;
+        transition-duration: .3s;
+      }
 
 .menu{
-    border: 3px solid green;
+    
     width: 50px;
     height: 50px;
-    margin-left: 20%;
+    margin-right: 0.8%;
+    margin-top: -0.6%;
+
 }
 
-.navbar-menu{
-    margin-left: 15px;
+.inic_espe{
+    margin-left: -5%;
     height: fit-content;
     width: 20%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    margin-top: 0.2%;
 }
 
 Link {

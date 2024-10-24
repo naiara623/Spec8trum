@@ -1,7 +1,6 @@
-<<<<<<< HEAD
-.body-login{
-=======
-<<<<<<< HEAD
+
+
+
 .body{
   background: rgb(14,59,67);
   background: radial-gradient(circle, rgba(14,59,67,1) 20%, rgba(47,95,102,1) 75%);
@@ -9,14 +8,14 @@
   width: 100vw;
   margin: 0;
 }
-=======
+
 /* body{
 >>>>>>> 5437fae03686b2b9ba5815f927157363d3616cc6
 
     background: rgb(14,59,67);
     background: linear-gradient(90deg, rgba(14,59,67,1) 2%, rgba(33,75,81,1) 47%, rgba(67,126,121,0.938813025210084) 100%);
 }  */
->>>>>>> dd0d82e279d9be25e28d5006fef76132ff229a75
+
 
 .Container-1{
   padding-top: 12%;

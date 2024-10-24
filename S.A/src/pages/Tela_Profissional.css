@@ -1,0 +1,74 @@
+.container-perfil-p{
+    display: flex;
+    text-align: left;
+    justify-content: flex-start;
+   margin-top: 8%;
+    margin-left: 2%;
+    width: 40%;
+    height: 600px;
+}
+
+.image-container {
+    width: 260px; /* Tamanho da imagem */
+    height: 260px; /* Tamanho da imagem */
+    border-radius: 50%; /* Transforma a imagem em círculo */
+    overflow: hidden; /* Esconde as partes da imagem fora do círculo */
+    margin-right: 20px; /* Espaçamento entre a imagem e o texto */
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    align-items: left;
+}
+
+.text-container-perfil-p{
+    flex: 1;
+    margin-left: 2%;
+    font-size: 100%;
+    margin-top: 20%;
+}
+
+.text-container-perfil-p h2{
+    margin-top: -20%;
+    color: #eaf4f4;
+    font-size: 56px;
+    width: 150%;
+    margin-left: -17%;
+}
+
+.text-container-perfil-p h4{
+    margin-top: 0;
+    color: #eaf4f4;
+    font-size: 30px;
+    margin-top: 1%;
+}
+
+.text-container-perfil-p p{
+    color: #eaf4f4;
+    font-size: 25px;
+    margin-top: 5%;
+}
+
+.Descrição{
+   color: #eaf4f4;
+   background-color: #0e3b43; 
+   padding: 30px;
+   width: 75%;
+   height: 30%;
+   border-radius: 20px;
+   margin-top: 5%;
+}
+
+.Descrição p{
+    margin-top: 1%;
+    font-size: 15px;
+}
+
+.profissão{
+    width: fit-content;
+    margin-top: -45px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}

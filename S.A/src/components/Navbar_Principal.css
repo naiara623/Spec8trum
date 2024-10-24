@@ -1,4 +1,92 @@
-body{
 
-    background-color: blue;
+body{
+ margin: 0;
+
+   
 }
+nav{
+
+    background-color: #0e3b43;;
+    height: 115px;
+    display: flex;
+}
+
+.Logo_Spec{
+
+    height: 76px;
+    width: 65%;
+    padding: 12px;
+}
+
+.logo_div{
+    border: 3px solid rgb(221, 215, 215);
+    margin-top: -1%;
+}
+.containe{
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    padding-top: 2%;
+    border: 3px solid red;
+   
+}
+
+.buscar{
+    margin: auto;
+    margin-top: -0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    border: 3px solid yellowgreen;
+}
+
+.lupa{
+    width: 50px;
+    height: 45px;
+}
+
+.input-busca{
+    height: 30px;
+    width: 500px;
+    border-radius: 13px;
+}
+
+
+.menu{
+    border: 3px solid green;
+    width: 50px;
+    height: 50px;
+    margin-left: 20%;
+}
+
+.navbar-menu{
+    margin-left: 15px;
+    height: fit-content;
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+Link {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #EAF4F4;
+    border: 0px;
+    text-decoration: none;
+    border: 3px solid rgb(10, 34, 171);
+
+
+}
+
+.inicio:hover{
+    cursor: pointer;
+    color: #597B78;
+}
+
+
+
+
+
+

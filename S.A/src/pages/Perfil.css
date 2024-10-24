@@ -1,0 +1,99 @@
+root{
+    --cor-1: #0e3b43;
+    --cor-2: #214b51;
+    --cor-3: #597b78;
+    --cor-4: #a3bbad;
+    --cor-5: #eaf4f4;
+}
+  
+.body-perfil{
+    background-color: #214b51;
+    width: 100vw;
+    height: 100vh;
+    margin: 0; 
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+.container{
+    /* width: 30%;
+    margin-left: 10%; */
+    display: flex;
+    text-align: left;
+    justify-content: flex-start;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+.text-container{
+    width: 100%;
+}
+.image-container {
+    width: 60%; /* Tamanho da imagem */
+    height: 50.5%; /* Tamanho da imagem */
+    border-radius: 50%; /* Transforma a imagem em círculo */
+    overflow: hidden; /* Esconde as partes da imagem fora do círculo */
+    margin-right: 20px; /* Espaçamento entre a imagem e o texto */
+}
+
+.image-container img {
+    width: 100%; /* Para garantir que a imagem ocupe todo o espaço dentro do círculo */
+    height: auto;
+    display: block;
+    align-items: left;
+}
+
+.text-container {
+    flex: 1; /* Ocupa todo o espaço restante */
+    margin-left: 2%;
+    font-size: 100%;
+}
+
+.text-container h2 {
+    margin-top: 20%;
+    color: #eaf4f4;
+    font-size: 56px;
+    width: 200%;
+}
+
+.text-container h4 {
+    margin-top: 30%;
+    color: #eaf4f4;
+    font-size: 30px;
+    width: 200%;
+}
+
+.text-container p {
+    color: #eaf4f4;
+    font-size: 20px;
+    margin-top: 5%;
+}
+
+.Descrição{
+    margin-top: 7%;
+    color: #eaf4f4;
+    background-color: #0E3B43;
+    padding: 30px;
+    width: 175%;
+    height: 50%;
+    border-radius: 20px;
+    font-size: 150%;
+}
+
+.Descrição p{
+    margin-top: 1%;
+    font-size: 15px;
+}
+.Detalhes{
+    color: #eaf4f4;
+    background-color: #0E3B43;
+    padding: 30px;
+    width: 175%;
+    border-radius: 20px;
+    height: 50%;
+    font-size: 150%;
+}
+
+.Detalhes p{
+    margin-top: 1%;
+    font-size: 15px;
+}
+

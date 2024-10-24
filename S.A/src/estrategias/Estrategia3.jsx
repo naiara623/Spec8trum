@@ -39,16 +39,16 @@ function Estrategia3() {
 <p>Lidar com rotas diferentes do previsto pode ser particularmente estressante para pessoas autistas, mas algumas estratégias podem ajudar a tornar essa situação mais gerenciável:</p>
 <div class="estrategias">
 <ul>
-<li><a href="1.3 Preparação antecipada.html">Preparação antecipada</a></li><br/>
-<li><a href="2.3 Mapas e aplicativos de navegação.html">Mapas e aplicativos de navegação</a></li><br/>
-<li><a href="3.3 Histórias sociais.html">Histórias sociais</a></li><br/>
-<li><a href="4.3 Rotas alternativas conhecidas.html">Rotas alternativas conhecidas</a></li><br/>
-<li><a href="5.3 Técnicas de relaxamento.html">Técnicas de relaxamento</a></li><br/>
-<li><a href="6.3 Itens de conforto.html">Itens de conforto</a></li><br/>
-<li><a href="7.3 Flexibilidade gradual.html">Flexibilidade gradual</a></li><br/>
-<li><a href="8.3 Reforço positivo.html">Reforço positivo</a></li><br/>
-<li><a href="9.3 Suporte emocional.html">Suporte emocional</a></li><br/>
-<li><a href="10.3 Treinamento de situações.html">Treinamento de situações</a></li><br/>   
+<li><button href="1.3 Preparação antecipada.html">Preparação antecipada</button></li><br/>
+<li><button href="2.3 Mapas e aplicativos de navegação.html">Mapas e aplicativos de navegação</button></li><br/>
+<li><button href="3.3 Histórias sociais.html">Histórias sociais</button></li><br/>
+<li><button href="4.3 Rotas alternativas conhecidas.html">Rotas alternativas conhecidas</button></li><br/>
+<li><button href="5.3 Técnicas de relaxamento.html">Técnicas de relaxamento</button></li><br/>
+<li><button href="6.3 Itens de conforto.html">Itens de conforto</button></li><br/>
+<li><button href="7.3 Flexibilidade gradual.html">Flexibilidade gradual</button></li><br/>
+<li><button href="8.3 Reforço positivo.html">Reforço positivo</button></li><br/>
+<li><button href="9.3 Suporte emocional.html">Suporte emocional</button></li><br/>
+<li><button href="10.3 Treinamento de situações.html">Treinamento de situações</button></li><br/>   
 </ul>
 </div>
 </div>
@@ -56,10 +56,10 @@ function Estrategia3() {
       
 <h3>Estratégias para:</h3>
 <ul>
-<li> <a href="Estratégia 1 Sons Altos.html">Sons Altos</a></li>
-<li> <a href="Estratégia 2 Mudança na Rotina.html">Mudança na Rotina</a></li>
-<li> <a href="Estratégia 3 Rotas diferentes do previsto.html">Rotas diferentes do previsto</a></li>
-<li> <a href="Estratégia 4 Muitas pessoas em um ambiente.html">Muitas pessoas em um ambiente</a></li>
+<li> <button href="Estratégia 1 Sons Altos.html">Sons Altos</button></li>
+<li> <button href="Estratégia 2 Mudança na Rotina.html">Mudança na Rotina</button></li>
+<li> <button href="Estratégia 3 Rotas diferentes do previsto.html">Rotas diferentes do previsto</button></li>
+<li> <button href="Estratégia 4 Muitas pessoas em um ambiente.html">Muitas pessoas em um ambiente</button></li>
 </ul>
 
 </div>

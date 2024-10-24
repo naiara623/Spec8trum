@@ -1,11 +1,14 @@
 import React from 'react'
+<<<<<<< HEAD
 import './NavBar_Principal.css'
 import { Link } from 'react-router-dom'
 
+=======
+>>>>>>> 5437fae03686b2b9ba5815f927157363d3616cc6
 
 function NavBar_Principal() {
-
   return (
+<<<<<<< HEAD
     <nav >
 
      
@@ -29,6 +32,11 @@ function NavBar_Principal() {
           
           </div>
     </nav>
+=======
+    <div>
+      oi
+    </div>
+>>>>>>> 5437fae03686b2b9ba5815f927157363d3616cc6
   )
 }
 

@@ -1,5 +1,3 @@
-
-
 import { useState } from 'react'
 import Boas_Vindas from "./pages/Boas_Vindas"
 import Cadastro from "./pages/Cadastro"

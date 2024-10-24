@@ -1,12 +1,15 @@
 import React from 'react'
 import NavBar_Principal from '../components/NavBar_Principal'
+import './Tela_Principal.css'
 
 
 function Tela_Principal() {
   return (
-    <div>
-       <NavBar_Principal />
-    </div>
+    <header className='tela-principal'>
+      <NavBar_Principal />
+        <h1>oiiiii</h1>
+       
+      </header>
   )
 }
 

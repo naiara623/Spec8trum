@@ -6,11 +6,7 @@
     
 }
 
-/* .img-section{
-  background-color: linear-gradient(90deg, rgba(33,75,81,1) 0%, rgba(33,75,81,1));
-  background-color: blue;
-  margin: 0;
-} */
+
 
 .navbar{
   display: flex;
@@ -56,7 +52,7 @@ hr{
   align-items: center;
 } 
 
-img{
+/* img{
   width: 38%;
   margin-right:75px;
   display: flex;
@@ -64,7 +60,7 @@ img{
   justify-content: flex-end;
   border-radius: 30px;
   
-} 
+}  */
 
 .navbar img{
 

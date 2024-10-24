@@ -1,6 +1,15 @@
-
+.body-cadastro{
+  background: rgb(14,59,67);
+  background: radial-gradient(circle, rgba(14,59,67,1) 20%, rgba(47,95,102,1) 75%);
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+.Conteiner-1{
+  padding-top: 1%;
+}
 .Container{
-  background-color: #0E3B43;
+  background-color: rgba(202, 222, 213, 0.192);
     width: 620px;
     height: 780px;
     padding: 3px;
@@ -11,7 +20,6 @@
     padding-top: 0%;
     padding: 3% 4%;
     border-radius: 5%;
-    box-shadow: 10px 5px 5px #0e3b4381;
 }
 
 
@@ -22,7 +30,7 @@ h1{
     font-size: 55px;
     width: fit-content;
     margin: 4% 4%;
-    margin-top: 5px;
+    margin-top: 2px;
     /* gap: 5px 3px; (Espassamento entre os elementos na linhavertical e/ou horizontal) */ 
 }
 
@@ -62,25 +70,68 @@ label{
     
 }
 
-  .input {
-    -webkit-appearance: none;
-   /* remove default */
-    display: block;
-    margin: 10px;
-    width: 24px;
-    height: 24px;
-    border-radius: 12px;
-    cursor: pointer;
-    vertical-align: middle;
-    box-shadow: hsla(0,0%,100%,.15) 0 1px 1px, inset hsla(0,0%,0%,.5) 0 0 0 1px;
-    background-color: hsla(0,0%,0%,.2);
-    background-image: -webkit-radial-gradient( rgb(0, 170, 255) 0%, hsla(200,100%,70%,1) 15%, hsla(200,100%,60%,.3) 28%, hsla(200,100%,30%,0) 70% );
-    background-repeat: no-repeat;
-    -webkit-transition: background-position .15s cubic-bezier(.8, 0, 1, 1),
-      -webkit-transform .25s cubic-bezier(.8, 0, 1, 1);
-    outline: none;
+.inputContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 
-  }
+#inputField {
+  border: 2px solid white;
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 12px 15px;
+  color: #EAF4F4;
+  font-weight: 500;
+  margin-left: -8%;
+  margin-right: 5%;
+  outline: none;
+  caret-color:var(--cor-2);
+  transition-duration: .3s;
+  font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.userIcon {
+  position: absolute;
+  fill: #A3BBAD;
+  width: 12px;
+  top: -23px;
+  left: -15px;
+  opacity: 0;
+  transition: .2s linear;
+}
+
+.usernameLabel {
+  position: absolute;
+  top: -25px;
+  left: 5px;
+  color: #EAF4F4;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  overflow: hidden;
+  transition: .2s linear;
+  opacity: 0;
+}
+
+#inputField:focus ~ .usernameLabel,
+#inputField:valid ~ .usernameLabel {
+  transform: translateX(20px);
+  opacity: 1;
+}
+
+#inputField:focus ~ .userIcon,
+#inputField:valid ~ .userIcon {
+  transform: translateX(20px);
+  opacity: 1;
+}
+
+#inputField:focus,
+#inputField:valid {
+  background-color: transparent;
+  transition-duration: .3s;
+}
   
   .radio-container {
     margin: 0 auto;
@@ -213,79 +264,83 @@ label{
     border-bottom: 2px solid #A3BBAD;
   }
 
-    .check {
-      cursor: pointer;
-      position: relative;
-      margin: auto;
-      width: 18px;
-      height: 18px;
-      -webkit-tap-highlight-color: transparent;
-      transform: translate3d(0, 0, 0);
-    }
-    
-    .check:before {
-      content: "";
-      position: absolute;
-      top: -15px;
-      left: -15px;
-      width: 48px;
-      height: 48px;
-      border-radius: 50%;
-      background: rgba(34, 50, 84, 0.03);
-      opacity: 0;
-      transition: opacity 0.2s ease;
-    }
-    
-    .check svg {
-      position: relative;
-      z-index: 1;
-      fill: none;
-      stroke-linecap: round;
-      stroke-linejoin: round;
-      stroke: #c8ccd4;
-      stroke-width: 1.5;
-      transform: translate3d(0, 0, 0);
-      transition: all 0.2s ease;
-    }
-    
-    .check svg path {
-      stroke-dasharray: 60;
-      stroke-dashoffset: 0;
-    }
-    
-    .check svg polyline {
-      stroke-dasharray: 22;
-      stroke-dashoffset: 66;
-    }
-    
-    .check:hover:before {
-      opacity: 1;
-    }
-    
-    .check:hover svg {
-      stroke: var(--accent-color, #a3e583);
-    }
-    
-    #cbx2:checked + .check svg {
-      stroke: var(--accent-color, #a3e583);
-    }
-    
-    #cbx2:checked + .check svg path {
-      stroke-dashoffset: 60;
-      transition: all 0.3s linear;
-    }
-    
-    #cbx2:checked + .check svg polyline {
-      stroke-dashoffset: 42;
-      transition: all 0.2s linear;
-      transition-delay: 0.15s;
-    }
+  .check {
+    cursor: pointer;
+    position: relative;
+    margin: auto;
+    width: 18px;
+    height: 18px;
+    -webkit-tap-highlight-color: transparent;
+    transform: translate3d(0, 0, 0);
+}
+
+.check:before {
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    width: 48px;
+    height: 48px;
+    background: rgba(34, 50, 84, 0.03);
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+/* Remove o border-radius para fazer o quadrado */
+.check:before {
+    border-radius: 0;
+}
+
+.check svg {
+    position: relative;
+    z-index: 1;
+    fill: none;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke: #c8ccd4;
+    stroke-width: 1.5;
+    transform: translate3d(0, 0, 0);
+    transition: all 0.2s ease;
+}
+
+.check svg path {
+    stroke-dasharray: 60;
+    stroke-dashoffset: 0;
+}
+
+.check svg polyline {
+    stroke-dasharray: 22;
+    stroke-dashoffset: 66;
+}
+
+.check:hover:before {
+    opacity: 1;
+}
+
+.check:hover svg {
+    stroke: var(--accent-color, #a3e583);
+}
+
+#cbx2:checked + .check svg {
+    stroke: var(--accent-color, #a3e583);
+}
+
+#cbx2:checked + .check svg path {
+    stroke-dashoffset: 60;
+    transition: all 0.3s linear;
+}
+
+#cbx2:checked + .check svg polyline {
+    stroke-dashoffset: 42;
+    transition: all 0.2s linear;
+    transition-delay: 0.15s;
+}
+
 
     .oi {
-      margin-right: 20px;
       --color: #EAF4F4;
       padding: 0.8em 1.7em;
-      background-color: transparent;
+      background-color: #EAF4F4;
       border-radius: .3em;
       position: relative;
       overflow: hidden;
@@ -296,10 +351,9 @@ label{
       border: 1px solid;
       font-family: inherit;
       text-transform: uppercase;
-      color: var(--color);
+      color: #214b51;
       z-index: 1;
-      /* width: 50%;
-      height: 50px; */
+      margin-top: 3%;
      }
      
      .oi::before, .oi::after {
@@ -331,7 +385,7 @@ label{
      } 
      
     .oi:hover {
-      color: #0E3B43;
+      color: #214b51;
      } 
      
       .oi:active {
